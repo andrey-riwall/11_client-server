@@ -3,12 +3,7 @@
     function historyBack() {
         const btnBack = document.querySelector(".header__link");
         btnBack.addEventListener('click', (e) => {
-            console.log(history[0]);
-            if (history.length > 2) {
-                history.back();
-            } else {
-                location.replace(location.origin);
-            }
+            history.back();
         })
     }
 
