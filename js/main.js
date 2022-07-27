@@ -74,7 +74,7 @@
         page.classList.add('header__item', 'btn');
         link.classList.add('header__link');
 
-        link.href = `/?page=${item}`
+        link.href = `./?page=${item}`
         link.textContent = item;
 
         page.append(link);
